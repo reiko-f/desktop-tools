@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="countdown.css">
+  <title>Countdown</title>
+</head>
+<body>
+  <header><a id="home" href="../index.html"><span class="fas fa-home"></span></a></header>
+  <h1 id="title">Countdown to ...</h1>  
+  <div id="container">
+  <p>Choose the event date that you want to countdown</p>
+  <div id="display-container">
+    <div id="event-container">
+      <div id="setDate-container">
+        <input type="date" id="set-date">
+      </div>
+      <div id="input-container">
+        <input type="text" id="event" placeholder="input event">        
+      </div>
+      <button id='target-btn' onclick="setEvent">set event</button>
+    </div>    
+    <br>
+    <div id="timer-container">
+      <div id="timer"></div>
+    </div>
+    <button id="start-btn" onclick="startCountdown()">start</button>
+  </div>
+  </div>
+  
+  
+  <script src="countdown.js"></script>
+</body>
+</html>

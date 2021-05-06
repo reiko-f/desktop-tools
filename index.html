@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../weatherapi.css">
+  <link rel="stylesheet" href="../todo.css">
+  <link rel="stylesheet" href="../calculator.css">
+  <link rel="stylesheet" href="../countdown.css">
+  <link rel="stylesheet" href="../photo-album.css">
+  <link rel="stylesheet" href="../choice-helper.css">
+  <title>Desktop Tools</title>
+</head>
+<body>
+  <div id="date-greeting-container">
+    <div id="date"></div>
+    <div id="time"></div>
+    <div id="greeting"></div>
+    <div id="name-holder">
+      <input type="text" id="name" placeholder="What's your name?">
+      <button id="name-btn" onclick="putName()"></button>
+    </div> 
+  </div>
+  <div id="card-container">
+    <a class="card" href="./1-weather-api-/weatherapi.html">weather</a>
+    <a class="card" href="./2-todo/todo.html">to-do</a>
+    <a class="card" href="./3-calculator/calculator.html">calculator</a>
+    <a class="card" href="./4-countdown/countdown.html">countdown</a>
+    <a class="card" href="./5-photo-album/photo-album.html">photo-album</a>
+    <a class="card" href="./6-choice-helper/choice-helper.html">choice-helper</a>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="greeting.js"></script>
+  <script src="weatherapi.js"></script>
+  <script src="todo.js"></script>
+  <script src="calculator.js"></script>
+  <script src="countdown.js"></script>
+  <script src="choice-helper.js"></script>
+</body>
+</html>
